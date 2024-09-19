@@ -1,0 +1,151 @@
+PODS:
+  - AppMetricaCore (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaEncodingUtils (= 5.8.0)
+    - AppMetricaFMDB (= 5.8.0)
+    - AppMetricaHostState (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaNetwork (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+    - AppMetricaProtobuf (= 5.8.0)
+    - AppMetricaProtobufUtils (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+  - AppMetricaCoreExtension (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+  - AppMetricaCoreUtils (5.8.0):
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaCrashes (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreExtension (= 5.8.0)
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaEncodingUtils (= 5.8.0)
+    - AppMetricaHostState (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+    - AppMetricaProtobufUtils (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+    - KSCrash/Recording (< 2.1.0, >= 2.0.0-rc.1)
+  - AppMetricaEncodingUtils (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+  - AppMetricaFMDB (5.8.0)
+  - AppMetricaHostState (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaLog (5.8.0)
+  - AppMetricaNetwork (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+  - AppMetricaPlatform (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaProtobuf (5.8.0)
+  - AppMetricaProtobufUtils (5.8.0):
+    - AppMetricaProtobuf (= 5.8.0)
+  - AppMetricaStorageUtils (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - DivKit (30.16.0):
+    - DivKit_LayoutKit (= 30.16.0)
+    - DivKit_Serialization (= 30.16.0)
+    - VGSL (~> 6.0)
+  - DivKit_LayoutKit (30.16.0):
+    - DivKit_LayoutKitInterface (= 30.16.0)
+    - VGSL (~> 6.0)
+  - DivKit_LayoutKitInterface (30.16.0):
+    - VGSL (~> 6.0)
+  - DivKit_Serialization (30.16.0):
+    - VGSL (~> 6.0)
+  - Flutter (1.0.0)
+  - KSCrash/Core (2.0.0-rc.2)
+  - KSCrash/Recording (2.0.0-rc.2):
+    - KSCrash/RecordingCore
+  - KSCrash/RecordingCore (2.0.0-rc.2):
+    - KSCrash/Core
+  - VGSL (6.5.0):
+    - VGSLFundamentals (= 6.5.0)
+    - VGSLNetworking (= 6.5.0)
+    - VGSLUI (= 6.5.0)
+  - VGSLFundamentals (6.5.0)
+  - VGSLNetworking (6.5.0):
+    - VGSLFundamentals (= 6.5.0)
+    - VGSLUI (= 6.5.0)
+  - VGSLUI (6.5.0):
+    - VGSLFundamentals (= 6.5.0)
+  - yandex_mobileads (7.3.0):
+    - Flutter
+    - YandexMobileAds (~> 7.4.0)
+  - YandexMobileAds (7.4.1):
+    - AppMetricaCore (< 6.0.0, >= 5.0.0)
+    - AppMetricaCrashes (< 6.0.0, >= 5.0.0)
+    - DivKit (= 30.16.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - yandex_mobileads (from `.symlinks/plugins/yandex_mobileads/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaCrashes
+    - AppMetricaEncodingUtils
+    - AppMetricaFMDB
+    - AppMetricaHostState
+    - AppMetricaLog
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobuf
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
+    - DivKit
+    - DivKit_LayoutKit
+    - DivKit_LayoutKitInterface
+    - DivKit_Serialization
+    - KSCrash
+    - VGSL
+    - VGSLFundamentals
+    - VGSLNetworking
+    - VGSLUI
+    - YandexMobileAds
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  yandex_mobileads:
+    :path: ".symlinks/plugins/yandex_mobileads/ios"
+
+SPEC CHECKSUMS:
+  AppMetricaCore: 9892526623a03d946f700aba8ee6ed0df77f4e80
+  AppMetricaCoreExtension: 953e911a544e0b4349b01b5032cdecab88f345fc
+  AppMetricaCoreUtils: 00ef934044dbe5515d9ce5b3b4020695abecb5df
+  AppMetricaCrashes: 31d4274b67c11a737e359727b954d51cafd11f53
+  AppMetricaEncodingUtils: 807366100e5be16bc6138e6f87ea739f707500b3
+  AppMetricaFMDB: 81844d8e01994696ebe37eeb8484dbf90e6ffb62
+  AppMetricaHostState: d7241335f6dd9d2e7553cf2d24cceb515e3d94ce
+  AppMetricaLog: 527a12413d267fe421b5fcd28e5435758f569f4d
+  AppMetricaNetwork: 9a479c29094a62e01c976a306846637df36f8682
+  AppMetricaPlatform: 7c5cd23c32268612d51b4122ca3c9df4052265bb
+  AppMetricaProtobuf: c7a6c851aa8a1a035776f4821334b593c546abd2
+  AppMetricaProtobufUtils: d0aa7b2ab478390aad3134451fb9c3098b9f2f25
+  AppMetricaStorageUtils: 8702c65d91a5e32dafcffbfae6af55b2cf767875
+  DivKit: 5b1683dff53c2cc5d7d7c3f3c8339278596d58e4
+  DivKit_LayoutKit: 238cad7137b312b67dd3e7bf39b9ebe4cb7df267
+  DivKit_LayoutKitInterface: c4ea5a92eee61e4c03581b1054c256b6e412f6c0
+  DivKit_Serialization: 61b55381db2918cba107314a147f59d8478df74a
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  KSCrash: 1a91851661a507384b2258d1919e92f5b3227e9f
+  VGSL: e55f0296f0aa9b4250ea9752720cb7c2c22f1d14
+  VGSLFundamentals: 8ba28da9f3ba10ed500038289dcd17f5ba04c263
+  VGSLNetworking: b2e6cf2f9d3f0bc87ea3b3ef57352e33f13dbbc0
+  VGSLUI: 84a11fabc999e59b3e4db6425dfcae669cb6606d
+  yandex_mobileads: b107a0593a2090bf8d921050c7bcf182d99020cc
+  YandexMobileAds: c2e377b30197378fb217099a885f89e87c062506
+
+PODFILE CHECKSUM: 656b070399616e84410e9fb08c7c8d711e55e6dd
+
+COCOAPODS: 1.15.2
